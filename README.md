@@ -14,4 +14,5 @@ work and if you want to learn more about me or need anything, contact me !</pre>
 **<p> > Portfolio : [Webpage](zaienu.github.io/Maxime_Chabrolle/)</p>**
 **<p> > Itchio : [Projects](https://zaien.itch.io/)</p>**
 
-    
+> [!NOTE]
+> Every project here won't have a V2.0
