@@ -1,0 +1,293 @@
+#Title_Bar {
+    background-color: rgb(66, 66, 66);
+    border-color: white;
+    border-width: 1;
+    flex-grow: 1;
+    min-height: 30;
+    height: 30;
+    width: auto;
+    max-height: 30;
+    max-width: initial;
+    margin: 4 4 0 4;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 3 3 0 0;
+}
+
+#Version_Label {
+    align-self: center;
+    -unity-font-style: bold;
+    font-size: 16px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+#Tool_Title_Label {
+    align-items: auto;
+    align-self: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    font-size: 20;
+    -unity-font-style: bold-and-italic;
+}
+
+#Quit_Button {
+    width: 30px;
+    height: 30px;
+    -unity-font-style: bold;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(235, 0, 0);
+    border-color: white;
+    margin: -1 -1 0 0;
+    padding: 0;
+    align-self: auto;
+    justify-content: space-between;
+    align-items: auto;
+    border-radius: 0 3 3 0;
+}
+
+#Quit_Button:hover {
+    background-color: red;
+}
+
+#Quit_Button:active {
+    background-color: rgb(215, 0, 0);
+}
+
+#Top_Separator
+{
+    height: 7;
+}
+
+#Tool_Frame {
+    background-color: rgb(106, 106, 106);
+    border-color: white;
+    border-width: 1;
+    margin: -1 4 4 4;
+    padding: 4 4 4 4;
+    height: 348;
+    width: auto;
+    border-radius: 5 5 5 5;
+}
+
+#Category {
+    background-color: rgb(106, 106, 106);
+    border-color: white;
+    border-width: 1;
+    margin: 0;
+    padding: 0;
+    border-radius: 5;
+    min-width: 45%;
+    align-self: flex-start;
+    max-width: 45%;
+}
+
+#Category_Frame {
+    background-color: rgb(106, 106, 106);
+    border-color: white;
+    border-width: 1;
+    margin: -1 -1 0 -1;
+    border-radius: 5 5 0 0;
+}
+
+#Category_Label {
+    -unity-text-align: upper-center;
+    color: white;
+    -unity-font-style: bold;
+    font-size: 30px;
+    height: 35px;
+}
+
+#Tag_Frame {
+    background-color: rgb(106, 106, 106);
+    border-color: white;
+    border-width: 1;
+    margin: 20 90 -1 90;
+    border-radius: 5 5 0 0;
+}
+
+#Tag_Label {
+    -unity-text-align: upper-center;
+    color: white;
+    -unity-font-style: bold;
+    font-size: 14;
+}
+
+#Lists_Frame {
+    margin: 0;
+    padding: 4;
+    flex-direction: row;
+}
+
+#Tag_List {
+    background-color: rgb(66, 66, 66);
+    border-color: white;
+    border-width: 1;
+    flex-direction: column;
+    padding: 5 0 5 0;
+    margin: 0 5 0 5;
+    border-radius: 5 5 0 5;
+    min-width: auto;
+    max-width: none;
+    min-height: 100;
+}
+
+
+#Tag_List .unity-scroller
+{
+    width: 15;
+    margin: 0 2 0 0;
+}
+
+#Tag_List  .unity-base-slider__dragger
+{
+    width: 9;
+    margin: -1 0 -1 1.5;
+    padding: 0;
+}
+
+
+#Tag_List > ScrollView > Scroller
+{
+    width: 200;
+}
+
+#Button_Frame {
+    background-color: rgb(106, 106, 106);
+    border-color: white;
+    border-width: 1;
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: flex-end;
+    flex-direction: row;
+    margin: -1 5 0 0;
+    padding: 2 2 2 2;
+    border-radius: 0 0 5 5;
+    width: 50;
+}
+
+#List_Add_Button {
+    width: 20px;
+    transform-origin: left top;
+    height: 20px;
+    font-size: 35px;
+    -unity-font-style: bold;
+    padding: 0 0 5 0;
+    margin: 2 0 2 1;
+    border-color: white;
+    background-color: rgb(160, 125, 9);
+}
+
+#List_Add_Button:hover {
+    background-color: rgb(160, 145, 9);
+}
+
+#List_Add_Button:active {
+    background-color: rgb(160, 105, 9);
+}
+
+#List_Remove_Button {
+    width: 20px;
+    transform-origin: right top;
+    height: 20px;
+    font-size: 30px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding: 0 0 5 0;
+    margin: 2 0 2 2;
+    border-color: white;
+    background-color: rgb(160, 125, 9);
+}
+
+#List_Remove_Button:hover {
+    background-color: rgb(160, 145, 9);
+}
+
+#List_Remove_Button:active {
+    background-color: rgb(160, 105, 9);
+}
+
+#Layer_Frame {
+    background-color: rgb(106, 106, 106);
+    border-color: white;
+    border-width: 1;
+    margin: 20 5 5 5;
+    border-radius: 5;
+    flex-direction: row;
+    padding: 0;
+}
+
+#Layer_Label {
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: center;
+    margin: 0 5 0 5;
+    font-size: 14;
+    -unity-font-style: bold;
+    color: white;
+}
+
+#Layer_Label_Frame {
+    background-color: rgb(106, 106, 106);
+    border-color: white;
+    border-width: 1;
+    margin: -1;
+    border-radius: 5 0 0 5;
+    flex-direction: row;
+}
+
+#Layer_Selector {
+    min-height: 30;
+    height: 32;
+    min-width: 180;
+    width: 203;
+    -unity-text-align: middle-left;
+    font-size: 14;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-self: flex-end;
+    margin: -1 0 -1 0;
+}
+
+#Layer_Selector > VisualElement {
+    background-color: rgb(66, 66, 66);
+    border-width: 1;
+    border-color: white;
+    border-radius: 0 4 4 0;
+}
+
+#Apply_Frame {
+    flex-direction: row;
+    border-color: white;
+    border-width: 1;
+    border-radius: 0 0 5 5;
+    margin: 20 -1 -1 -1;
+    padding: 0 0 0 0;
+    align-items: auto;
+}
+
+#Configure_Objects_Button {
+    background-color: darkgreen;
+    border-color: white;
+    border-radius: 0 0 5 5;
+    margin: -1;
+    padding: 0;
+    width: 100.8%;
+    height: 30;
+    font-size: 18;
+    -unity-font-style: bold;
+}
+
+#Configure_Objects_Button:hover {
+    background-color: rgb(0, 120, 0);
+}
+
+#Configure_Objects_Button:active {
+    background-color: rgb(0, 80, 0);
+}
+
+#Configure_Objects_Button:disabled {
+    background-color: rgb(215, 0, 0);
+}

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:custom="UnityEditor.UIElements"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ui:VisualElement>
+        <custom:CustomTagField/>
+        <!-- other UI elements... -->
+    </ui:VisualElement>
+</ui:UXML>
