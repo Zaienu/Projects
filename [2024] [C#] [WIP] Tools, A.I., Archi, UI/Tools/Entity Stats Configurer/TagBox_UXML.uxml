@@ -1,7 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/Editor/Tool%20Scripts/Entity%20Configurer/EC_CSS.uss?fileID=7433441132597879392&amp;guid=2fa7ecf01eeb7df46b0231e77a8bd067&amp;type=3#EC_CSS" />
-    <ui:GroupBox name="TagBox" class="Tag_Box">
-            <uie:TagField name="TagField" class="Tag_Field" />
-            <ui:Button name="TagButton" text="X" class="Tag_Button"/>
-    </ui:GroupBox>
-</ui:UXML>
