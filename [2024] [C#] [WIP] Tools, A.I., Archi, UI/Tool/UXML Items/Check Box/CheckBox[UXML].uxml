@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/UXML%20Items/Check%20Box/CheckBox[USS].uss?fileID=7433441132597879392&amp;guid=e00e792fb57eaa948a5a6ca17d57eb70&amp;type=3#CheckBox[USS]" />
+    <ui:GroupBox name="Root" class="Root_Check_Box">
+        <ui:Toggle text="Unknown" name="ToggleBox" class="Toggle_Box" />
+    </ui:GroupBox>
+</ui:UXML>

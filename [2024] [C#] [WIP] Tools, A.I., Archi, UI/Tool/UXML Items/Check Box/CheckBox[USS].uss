@@ -1,0 +1,21 @@
+.Root_Check_Box {
+    flex-direction: row;
+    padding: 2;
+    margin: 5;
+    width: 130;
+}
+
+.Toggle_Box{
+    margin: 0;
+    padding: 0;
+}
+
+.Toggle_Box .unity-toggle__checkmark{
+    width: 16;
+    height: 16;
+}
+
+.Toggle_Box .unity-label{
+    color: white;
+    font-size: 16;
+}

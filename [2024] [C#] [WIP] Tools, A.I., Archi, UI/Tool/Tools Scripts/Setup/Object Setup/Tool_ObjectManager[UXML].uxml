@@ -1,0 +1,53 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Tools%20Scripts/Setup/Object%20Setup/Tool_ObjectSetup[USS].uss?fileID=7433441132597879392&amp;guid=faa1751ca21ca14408a74dcf6e8dd116&amp;type=3#Tool_ObjectSetup[USS]" />
+    <ui:GroupBox class="Tool_Frame">
+        <ui:GroupBox style="flex-direction: row; padding-top: 0; margin-top: 0;">
+            <ui:GroupBox class="Category_Panel">
+                <ui:GroupBox class="Category_Label_Frame">
+                    <ui:Label text="Entities" class="Category_Label" />
+                </ui:GroupBox>
+                <ui:GroupBox class="Category_Box">
+                    <ui:GroupBox class="Sub_Label_Frame">
+                        <ui:Label text="Tags" class="Sub_Label" />
+                    </ui:GroupBox>
+                    <ui:ListView name="ETList" class="Tag_List" />
+                    <ui:GroupBox class="ListButton_Frame">
+                        <ui:Button text="Add" name="AddEntityButton" class="List_AddButton" />
+                        <ui:Button text="Remove" name="RemoveEntityButton" class="List_RemoveButton" />
+                    </ui:GroupBox>
+                    <ui:VisualElement class="Spacer" />
+                    <ui:GroupBox class="Sub_Label_Frame">
+                        <ui:Label text="Layers" class="Sub_Label" />
+                    </ui:GroupBox>
+                    <ui:DropdownField name="ELayer_Field" class="Layer_Selector" />
+                </ui:GroupBox>
+                <ui:GroupBox class="Button_Frame">
+                    <ui:Button text="Setup Entities" name="SetupEntities" class="Config_Button" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:GroupBox class="Category_Panel">
+                <ui:GroupBox class="Category_Label_Frame">
+                    <ui:Label text="Obstacles" class="Category_Label" />
+                </ui:GroupBox>
+                <ui:GroupBox class="Category_Box">
+                    <ui:GroupBox class="Sub_Label_Frame">
+                        <ui:Label text="Tags" class="Sub_Label" />
+                    </ui:GroupBox>
+                    <ui:ListView name="OTList" class="Tag_List" />
+                    <ui:GroupBox class="ListButton_Frame">
+                        <ui:Button text="Add" name="AddObstacleButton" class="List_AddButton" />
+                        <ui:Button text="Remove" name="RemoveObstacleButton" class="List_RemoveButton" />
+                    </ui:GroupBox>
+                    <ui:VisualElement class="Spacer" />
+                    <ui:GroupBox class="Sub_Label_Frame">
+                        <ui:Label text="Layers" class="Sub_Label" />
+                    </ui:GroupBox>
+                    <ui:DropdownField name="OLayer_Field" class="Layer_Selector" />
+                </ui:GroupBox>
+                <ui:GroupBox class="Button_Frame">
+                    <ui:Button text="Setup Obstacles" name="SetupObstacles" class="Config_Button" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

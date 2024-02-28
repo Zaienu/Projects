@@ -1,0 +1,69 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Tools%20Scripts/Entity%20Configurer/Behaviours%20Tool/Tool_Behaviours[USS].uss?fileID=7433441132597879392&amp;guid=43767ac620746534090452e646f9763d&amp;type=3#Tool_Behaviours[USS]"/>
+    <Style src="project://database/Assets/Editor/Tools%20Scripts/Entity%20Configurer/UXML%20Items/TagBox[USS].uss?fileID=7433441132597879392&amp;guid=0f20bce42d07cca4fa467fbf6502e6bc&amp;type=3#TagBox[USS]"/>
+    <ui:GroupBox class="Tool_Frame">
+        <ui:DropdownField name="EntityTag" class="Entity_Tag_Selector"/>
+
+        <ui:GroupBox class="Part">
+
+            <ui:VisualElement class="Spacer"/>
+            <ui:GroupBox class="Category_Label_Frame">
+                <ui:Label text="Relationships" class="Category_Label"/>
+            </ui:GroupBox>
+            
+            <ui:GroupBox class="Category_Panel">
+                <ui:VisualElement class="Spacer"/>
+                <ui:GroupBox class="Category_Box">
+                    <ui:GroupBox class="Sub_Label_Frame">
+                        <ui:Label text="Enemies" class="Sub_Label"/>
+                    </ui:GroupBox>
+                    <ui:ListView name="EnemiesList" class="Tag_List"/>
+                    <ui:GroupBox class="ListButton_Frame">
+                        <ui:Button text="Add" name="AddEnemyButton" class="List_AddButton"/>
+                        <ui:Button text="Remove" name="RemoveEnemyButton" class="List_RemoveButton"/>
+                    </ui:GroupBox>
+                </ui:GroupBox>
+                <ui:VisualElement class="Spacer"/>
+                <ui:GroupBox class="Category_Box">
+                    <ui:GroupBox class="Sub_Label_Frame">
+                        <ui:Label text="Neutral" class="Sub_Label"/>
+                    </ui:GroupBox>
+                    <ui:ListView name="NeutralList" class="Tag_List"/>
+                    <ui:GroupBox class="ListButton_Frame">
+                        <ui:Button text="Add" name="AddNeutralButton" class="List_AddButton"/>
+                        <ui:Button text="Remove" name="RemoveNeutralButton" class="List_RemoveButton"/>
+                    </ui:GroupBox>
+                </ui:GroupBox>
+                <ui:VisualElement class="Spacer"/>
+                <ui:GroupBox class="Category_Box">
+                    <ui:GroupBox class="Sub_Label_Frame">
+                        <ui:Label text="Allies" class="Sub_Label"/>
+                    </ui:GroupBox>
+                    <ui:ListView name="AlliesList" class="Tag_List"/>
+                    <ui:GroupBox class="ListButton_Frame">
+                        <ui:Button text="Add" name="AddAlliesButton" class="List_AddButton"/>
+                        <ui:Button text="Remove" name="RemoveAlliesButton" class="List_RemoveButton"/>
+                    </ui:GroupBox>
+                </ui:GroupBox>
+                <ui:VisualElement class="Spacer"/>
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:VisualElement class="Spacer"/>
+        <ui:GroupBox class="Part">
+
+            <ui:GroupBox class="Category_Label_Frame">
+                <ui:Label text="Behaviours" class="Category_Label"/>
+            </ui:GroupBox>
+            <ui:GroupBox class="Behaviour_Panel">
+                <ui:ListView name="BehaviourList" class="Behaviour_List"/>
+            </ui:GroupBox>
+            <ui:GroupBox class="BListButton_Frame">
+                <ui:Button text="Add" name="AddBehaviourButton" class="BList_AddButton"/>
+                <ui:Button text="Remove" name="RemoveBehaviourButton" class="BList_RemoveButton"/>
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox class="Button_Frame">
+            <ui:Button text="Save" name="SaveButton" class="Save_Button"/>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

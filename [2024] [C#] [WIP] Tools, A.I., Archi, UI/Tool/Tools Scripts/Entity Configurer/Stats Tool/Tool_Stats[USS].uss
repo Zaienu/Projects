@@ -1,0 +1,152 @@
+.Tool_Frame,
+.Entity_Tag_Selector,
+.General_Infos_Panel,
+.Save_Button,
+.Entity_Image{
+    border-color: white;
+    border-width: 1;
+}
+
+.Tool_Frame {
+    background-color: #333333;
+    margin: 5;
+    padding: 6 4 4 4;
+    height: 260;
+    width: auto;
+    border-radius: 5 5 5 5;
+}
+
+.Entity_Tag_Selector {
+    border-radius: 5;
+    width: 175;
+    height: 25;
+    margin: 10 10 0 10;
+    padding: 0;
+    -unity-font-style: bold;
+    font-size: 18;
+}
+
+.Entity_Tag_Selector > VisualElement{
+    background-color: #576574;
+    border-radius: 5;
+    margin: -1;
+    border-color: white;
+}
+
+.Infos_Panel {
+    background-color: rgb(105, 105, 105);
+    border-color: white;
+    border-width: 1;
+    margin: 10;
+    padding: 0;
+    border-radius: 5;
+    width: 95%;
+    height: auto;
+    flex-direction: row;
+}
+
+.Stats_Panel {
+    background-color: rgb(106, 106, 106);
+    padding: 5;
+    margin: 4;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    border-radius: 5 0 0 5;
+}
+
+.Stats_Groupbox {
+    margin: 2;
+    padding: 2 2 0 2;
+    width: 260px;
+    height: auto;
+    flex-direction: row;
+}
+
+.Health_Image,
+.Attack_Image,
+.ASPD_Image,
+.Speed_Image {
+    background-color: #1F4E79;
+    border-color: white;
+    border-width: 1;
+    margin: 0;
+    width: 25;
+    height: 25;
+    border-radius: 5;
+}
+
+
+.Health_Slider,
+.Attack_Slider,
+.ASPD_Slider,
+.Speed_Slider {
+    margin: 2;
+    padding: 2;
+    -unity-font-style: bold;
+    font-size: 16;
+    width: 225;
+}
+
+.Health_Slider > Label,
+.Attack_Slider > Label,
+.ASPD_Slider > Label,
+.Speed_Slider > Label {
+    -unity-text-align: upper-left;
+    margin: -4 0 0 0;
+    width: 55;
+    max-width: 55;
+    min-width: 55;
+    color: white;
+}
+
+.Health_Slider .unity-base-slider__dragger,
+.Attack_Slider .unity-base-slider__dragger,
+.ASPD_Slider .unity-base-slider__dragger,
+.Speed_Slider .unity-base-slider__dragger{
+    background-color: #576574;
+    border-color: white;
+}
+
+.unity-text-field {
+    width: 50;
+    max-width: 50;
+    min-width: 50;
+}
+
+.unity-drag-container {
+    margin: 2;
+}
+
+.Entity_Image {
+    background-color: #1F4E79;
+    margin: 13 0 0 0;
+    padding: 0;
+    width: 128;
+    height: 128;
+    border-radius: 5 5 5 5;
+}
+
+.Button_Frame{
+    margin: -2 10 0 8;
+    padding:2;
+}
+
+.Save_Button {
+    background-color: #4A90E2;
+    border-color: white;
+    border-width: 1;
+    margin: 0;
+    width: 100.1%;
+    font-size: 20;
+    -unity-font-style: bold;
+    height: 25;
+}
+
+.Save_Button:hover {
+    background-color: #68A4E8;
+}
+
+.Save_Button:active {
+    background-color: #3272BE;
+}

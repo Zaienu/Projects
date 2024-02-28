@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Tools%20Scripts/Entity%20Configurer/Stats%20Tool/Tool_Stats[USS].uss?fileID=7433441132597879392&amp;guid=2fa7ecf01eeb7df46b0231e77a8bd067&amp;type=3#Tool_Stats[USS]"/>
+    <ui:GroupBox class="Tool_Frame">
+        <ui:DropdownField name="EntityTagSelector" class="Entity_Tag_Selector"/>
+        <ui:GroupBox class="Infos_Panel">
+            <ui:GroupBox class="Stats_Panel">
+                <ui:GroupBox class="Stats_Groupbox">
+                    <ui:Image name="HealthImage" class="Health_Image"/>
+                    <ui:Slider name="HealthSlider" label="Health" class="Health_Slider"/>
+                </ui:GroupBox>
+                <ui:GroupBox class="Stats_Groupbox">
+                    <ui:Image name="AttackImage" class="Attack_Image"/>
+                    <ui:Slider name="AttackSlider" label="Attack" class="Attack_Slider"/>
+                </ui:GroupBox>
+                <ui:GroupBox class="Stats_Groupbox">
+                    <ui:Image name="ASPDImage" class="ASPD_Image"/>
+                    <ui:Slider name="ASPDSlider" label="ASPD" class="ASPD_Slider"/>
+                </ui:GroupBox>
+                <ui:GroupBox class="Stats_Groupbox">
+                    <ui:Image name="SpeedImage" class="Speed_Image"/>
+                    <ui:Slider name="SpeedSlider" label="Speed" class="Speed_Slider"/>
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:Image name="EntityImage" class="Entity_Image"/>
+        </ui:GroupBox>
+        <ui:GroupBox class="Button_Frame">
+            <ui:Button text="Save Stats" name="SaveStats" class="Save_Button"/>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

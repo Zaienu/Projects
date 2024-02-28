@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Tools%20Scripts/Entity%20Configurer/UXML%20Items/TagBox[USS].uss?fileID=7433441132597879392&amp;guid=0f20bce42d07cca4fa467fbf6502e6bc&amp;type=3#TagBox[USS]" />
+    <ui:GroupBox name="RootBox" class="TagBox_Root">
+        <ui:GroupBox name="TagBox">
+            <ui:DropdownField name="TagField" class="Tag_Field" />
+            <ui:Button name="TagButton" text="X" class="Tag_Button" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

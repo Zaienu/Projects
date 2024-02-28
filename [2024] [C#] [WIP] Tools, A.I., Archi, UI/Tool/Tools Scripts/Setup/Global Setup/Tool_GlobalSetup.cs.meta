@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5d2248726e68eb748ab63f554f1da272
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - UXML_UI: {fileID: 9197481963319205126, guid: 92f8214baee8e3042be705dcbd4b07dc, type: 3}
+  - CheckBox: {fileID: 9197481963319205126, guid: 91d9110ab91cc5243b4ef55d43e2ea95, type: 3}
+  - EManager: {fileID: 11400000, guid: d5443eaf4c7c8364b8e16d9ffe7c1841, type: 2}
+  - OManager: {fileID: 11400000, guid: 6ff84566eef80ef4ca9f98d1a45776bf, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

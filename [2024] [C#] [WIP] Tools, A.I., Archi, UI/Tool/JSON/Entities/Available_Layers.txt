@@ -1,0 +1,9 @@
+{
+  "dictionary": {
+    "Default": false,
+    "TransparentFX": true,
+    "Ignore Raycast": false,
+    "Water": false,
+    "UI": false
+  }
+}

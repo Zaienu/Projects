@@ -1,0 +1,56 @@
+#RootBox
+{
+    padding: 2;
+    margin: 0;
+}
+
+#TagBox
+{
+    background-color: rgb(66, 66, 66);
+    border-color: white;
+    border-width: 1;
+    flex-direction: row;
+    padding: 0;
+    margin: 4px;
+    width: auto;
+    height: 30;
+    max-height: 30;
+    max-width: 140;
+    border-radius: 5;
+}
+
+#TagField
+{
+    font-size: 12;
+    margin: -1;
+    border-color: white;
+    border-width: 1;
+    -unity-font-style: bold;
+    width: 112;
+    height: 30;
+    max-width: 112;
+    max-height: 30;
+    border-radius: 5 0 0 5;
+}
+
+#TagButton
+{
+    background-color: rgb(235, 0, 0);
+    margin: -1 0 -1 0;
+    border-width: 1;
+    border-color: white;
+    font-size: 20;
+    -unity-font-style: bold;
+    width: 30;
+    height: 30;
+    border-radius: 0 5 5 0;
+}
+
+#Tag_Button:hover
+{
+    background-color: red;
+}
+
+#Tag_Button:active {
+    background-color: rgb(215, 0, 0);
+}

@@ -1,0 +1,13 @@
+{
+  "dictionary": {
+    "Untagged": true,
+    "Respawn": true,
+    "Finish": false,
+    "EditorOnly": false,
+    "MainCamera": false,
+    "Player": true,
+    "GameController": false,
+    "Neutral": false,
+    "Allies": false
+  }
+}

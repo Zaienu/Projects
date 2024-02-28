@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d0f455655e78fab47bba0bd43a0c39db
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - UXML_UI: {fileID: 9197481963319205126, guid: daf9e8476ee2e7c4f90be751ce52271c, type: 3}
+  - TagBox: {fileID: 9197481963319205126, guid: 6cc1970010a61d34c80192f56a802e84, type: 3}
+  - EManager: {fileID: 11400000, guid: d5443eaf4c7c8364b8e16d9ffe7c1841, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
