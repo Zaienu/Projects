@@ -1,7 +1,7 @@
 using System;
 using Entities_Core_Scripts;
+using Helper;
 using UnityEngine;
-using Utility;
 
 namespace Behaviours
 {

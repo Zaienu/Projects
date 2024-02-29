@@ -1,10 +1,10 @@
 using System;
 using Entities_Core_Scripts;
+using Helper;
 using UnityEngine;
 using Quaternion = UnityEngine.Quaternion;
 using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
-using Utility;
 
 namespace Behaviours
 {

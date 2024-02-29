@@ -1,6 +1,6 @@
 using System;
+using Helper;
 using UnityEngine;
-using Utility;
 
 namespace Entities_Core_Scripts
 {

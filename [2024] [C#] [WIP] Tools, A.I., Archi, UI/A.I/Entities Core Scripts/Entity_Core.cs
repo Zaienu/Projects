@@ -1,16 +1,13 @@
 using System;
 using System.Collections.Generic;
+using Helper;
 using UnityEngine;
 using UnityEngine.AI;
 
 namespace Entities_Core_Scripts
 {
 
-    [Serializable]
-    public class Relations
-    {
-        public List<string> list = new List<string>();
-    }
+
     
     public class Entity_Core : MonoBehaviour
     {

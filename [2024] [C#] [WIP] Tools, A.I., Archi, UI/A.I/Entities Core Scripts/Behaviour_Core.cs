@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Helper;
 using UnityEngine;
 using UnityEngine.AI;
-using Utility;
 
 namespace Entities_Core_Scripts
 {
